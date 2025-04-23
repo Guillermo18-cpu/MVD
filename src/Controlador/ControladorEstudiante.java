@@ -30,6 +30,7 @@ public class ControladorEstudiante {
     }
 
     public void actualizarVista() {
+        vista.mostrarDetalleEstudiante(modelo.getNombre(), modelo.getEdad());
 
     }
 }
