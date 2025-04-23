@@ -8,6 +8,11 @@ public class ControladorEstudiante {
     private Estudiante modelo;
     private VistaEstudiante vista;
 
+    public ControladorEstudiante(Estudiante modelo, VistaEstudiante vista) {
+        this.modelo = modelo;
+        this.vista = vista;
+    }
+
     public void setNombreEstudiante(String nombre) {
         modelo.setNombre(nombre);
     }
