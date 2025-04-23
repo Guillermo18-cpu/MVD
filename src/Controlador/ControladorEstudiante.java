@@ -8,19 +8,19 @@ public class ControladorEstudiante {
     private Estudiante modelo;
     private VistaEstudiante vista;
 
-    public void setNombre(String nombre) {
+    public void setNombreEstudiante(String nombre) {
         modelo.setNombre(nombre);
     }
 
-    public String getNombre() {
+    public String getNombreEstudiante() {
         return modelo.getNombre();
     }
 
-    public void setEdad(int edad) {
+    public void setEdadEstudiante(int edad) {
         modelo.setEdad(edad);
     }
 
-    public int getEdad() {
+    public int getEdadEstudiante() {
         return modelo.getEdad();
     }
 
