@@ -29,6 +29,13 @@ public class ControladorEstudiante {
         return modelo.getEdad();
     }
 
+    public void crearEstudiante(Estudiante nuevoEstudiante) {
+
+        nuevoEstudiante.insertarEstudiante(nuevoEstudiante);
+        System.out.println("Estudiante creado correctamente!");
+
+    }
+
     public void actualizarVista() {
         vista.mostrarDetalleEstudiante(modelo.getNombre(), modelo.getEdad());
 
